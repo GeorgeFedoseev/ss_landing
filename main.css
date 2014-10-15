@@ -2,6 +2,10 @@ a:focus {outline:none;}
 a::-moz-focus-inner {border:0;}
 
 
+body{
+	zoom: 100%;
+}
+
 
 @font-face {
 	font-family:"FranklinGothic Heavy";
