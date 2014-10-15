@@ -154,6 +154,7 @@ a::-moz-focus-inner {border:0;}
 	font-size: 65px;
 	font-family: "FranklinGothic Heavy";
 	line-height: 1.0;
+	margin-left: -30px;
 }
 
 #topbanner_soon {
