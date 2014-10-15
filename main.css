@@ -203,7 +203,7 @@ a::-moz-focus-inner {border:0;}
 	padding-top: 10px;
 }
 
-#topbanner_form input[type="text"] {
+#topbanner_form input[type="email"] {
 	position: relative;
 	float: left;
 	z-index: 2;
