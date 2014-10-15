@@ -35,6 +35,16 @@ a::-moz-focus-inner {border:0;}
 	font-style:normal;
 }
 
+@font-face {
+	font-family:"Lato Light";
+	src:url("fonts/LatoLight/Lato-Light.eot?") format("eot"),
+	url("fonts/LatoLight/Lato-Light.woff") format("woff"),
+	url("fonts/LatoLight/Lato-Light.ttf") format("truetype"),
+	url("fonts/LatoLight/Lato-Light.svg#Lato-Light") format("svg");
+	font-weight:bold;
+	font-style:normal;
+}
+
 
 /* TOP BAR */
 
@@ -229,6 +239,22 @@ a::-moz-focus-inner {border:0;}
 	outline: none;
 }
 
+
+/* IDEA */
+#idea {
+	width: 1024px;
+	/*background: rgba(0, 0, 0, 0.1);*/	
+	padding: 0;
+	padding-bottom: 700px;	
+
+}
+
+#idea_title {
+	font-family: "Lato Light";
+	font-size: 55px;
+	text-align: center;
+	margin-top: 100px;
+}
 
 
 
