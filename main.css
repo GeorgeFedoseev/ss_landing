@@ -25,6 +25,17 @@ a::-moz-focus-inner {border:0;}
 	font-style:normal;
 }
 
+@font-face {
+	font-family:"Lato Regular";
+	src:url("fonts/LatoRegular/Lato-Regular.eot?") format("eot"),
+	url("fonts/LatoRegular/Lato-Regular.woff") format("woff"),
+	url("fonts/LatoRegular/Lato-Regular.ttf") format("truetype"),
+	url("fonts/LatoRegular/Lato-Regular.svg#Lato-Regular") format("svg");
+	font-weight:bold;
+	font-style:normal;
+}
+
+
 /* TOP BAR */
 
 #topbar {
@@ -179,6 +190,44 @@ a::-moz-focus-inner {border:0;}
 	margin-top: -18px;
 }
 
+#topbanner_subtitle {
+	font-family: "Lato Regular";
+	font-size: 23px;
+	color: white;
+	padding-top: 30px;
+	padding-left: 10px;
+}
+
+#topbanner_form {
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+#topbanner_form input[type="text"] {
+	position: relative;
+	float: left;
+	z-index: 2;
+	width: 400px;
+	border-radius: 50px;
+	border-style: none;
+	padding: 5px;
+	padding-left: 20px;	
+	outline: none;
+	font-size: 23px;
+}
+
+#topbanner_form input[type="submit"] {
+	position: relative;
+	z-index: 1;
+	width: 80px;
+	height: 42px;	
+	border-style: none;
+	border-radius: 0 50px 50px 0;
+	margin-left: -20px;
+	background: url('img/topbanner_arrow.png') no-repeat 30px; 
+	background-color: black;
+	outline: none;
+}
 
 
 
