@@ -49,7 +49,7 @@ a::-moz-focus-inner {border:0;}
 /* TOP BAR */
 
 #topbar {
-	background: #111111;
+	background: rgb(21, 21, 21);
 	
 	height: 78px !important;
 	font-family: "Lato Bold";
