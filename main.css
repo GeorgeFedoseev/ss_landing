@@ -1,0 +1,186 @@
+a:focus {outline:none;}
+a::-moz-focus-inner {border:0;}
+
+
+
+@font-face {
+	font-family:"FranklinGothic Heavy";
+	src:url("fonts/FranklinGothicHeavy/franklin-gothic-heavy.eot?") format("eot"),
+	url("fonts/FranklinGothicHeavy/franklin-gothic-heavy.woff") format("woff"),
+	url("fonts/FranklinGothicHeavy/franklin-gothic-heavy.ttf") format("truetype"),
+	url("fonts/FranklinGothicHeavy/franklin-gothic-heavy.svg#Lato-Bold") format("svg");
+	font-weight:bold;
+	font-style:normal;
+}
+
+@font-face {
+	font-family:"Lato Bold";
+	src:url("fonts/LatoBold/Lato-Bold.eot?") format("eot"),
+	url("fonts/LatoBold/Lato-Bold.woff") format("woff"),
+	url("fonts/LatoBold/Lato-Bold.ttf") format("truetype"),
+	url("fonts/LatoBold/Lato-Bold.svg#Lato-Bold") format("svg");
+	font-weight:bold;
+	font-style:normal;
+}
+
+/* TOP BAR */
+
+#topbar {
+	background: #111111;
+	
+	height: 78px !important;
+	font-family: "Lato Bold";
+	margin-bottom: 0;
+}
+
+
+#topbar_container {
+	width: 1024px;
+	padding: 0;
+	height: inherit;	
+}
+
+#topbar_container .row {
+	margin-right: 0;
+	margin-left: 0;
+}
+
+#topbar_logo {	
+	background: url('img/topbar_logo.png');
+	width: 216px;
+	height: 180px;	
+	margin-left: -2px; /* shadow */
+	margin-top: -36px;
+}
+
+#topbar_menu {
+	width: 805px;
+	font-size: 16px !important;	
+	margin: 0 auto;
+	margin-left: 5px;
+	padding-top: 22px;
+	padding-right: 0;
+}
+
+#topbar_menu li {
+	float: none;
+    display: inline-block;
+}
+
+#topbar_menu a{
+	padding: 10px 19px 10px 19px;	
+	color: #ffffff;	
+}
+
+#topbar_menu a.pink {
+	color: rgb(244, 141, 188);
+}
+
+#topbar_menu a:active{
+	color: white;	
+}
+
+/*
+#topbar_icons {
+	width: 150px;
+	height: 30px;
+	float: none;
+    display: inline-block;
+}
+
+#topbar_icons div {
+	position: relative;
+	width: 29px;
+	height: 28px;
+	display: inline-block;
+}
+
+#topbar_facebook div {
+	background: url('img/topbar_facebook.png') no-repeat;
+}
+
+#topbar_twitter {
+	padding-left: 10px;
+}
+
+#topbar_twitter div {	
+	background: url('img/topbar_twitter.png') no-repeat;	
+}
+*/
+
+/* TOP BANNER */
+
+#topbanner {	
+	width: 100%;
+	height: 540px;
+	background-color: red;
+	background: rgba(64, 66, 75, 1) url('img/topbanner_background.png') right no-repeat;
+	padding: 0;
+}
+
+#topbanner_container {
+	width: 1024px;
+	height: inherit;
+	background-color: rgba(255, 255, 255, .1);
+	padding: 0;
+
+}
+
+
+#topbanner_iphones {
+	z-index: 400;
+
+	width: 555px;
+	height: 531px;
+	background: url('img/topbanner_iphones.png') no-repeat;
+	margin: 0;
+	margin-left: -242px;
+	margin-top: 91px;
+	display: inline-block;
+}
+
+#topbanner_main {
+	z-index: -1;	
+	width: 470px;
+	margin-top: -520px;
+	margin-right: 5px;
+	margin-left: 555px;
+}
+
+#topbanner_title {
+	
+	color: white;
+	font-size: 65px;
+	font-family: "FranklinGothic Heavy";
+	line-height: 1.0;
+}
+
+#topbanner_soon {
+	position: relative;
+	z-index: 5;
+	width: 518px;
+	height: 80px;
+	background: url('img/topbanner_soon.png') no-repeat;
+	margin-left: -115px;
+}
+
+#topbanner_subscribe {
+	position: relative;
+	z-index: 3;
+	width: 528px;
+	height: 125px;
+	background: rgb(241, 116, 173);
+	border-radius: 0 10px 10px 0;
+	margin-left: -58px;
+	margin-top: -18px;
+}
+
+
+
+
+
+
+
+
+
+
