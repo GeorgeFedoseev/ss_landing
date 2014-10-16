@@ -57,6 +57,10 @@ a::-moz-focus-inner {border:0;}
 	font-style:normal;
 }
 
+.container {
+	padding: 0;
+}
+
 
 /* TOP BAR */
 
@@ -89,7 +93,8 @@ a::-moz-focus-inner {border:0;}
 }
 
 #topbar_menu {
-	width: 805px;
+	position: relative;
+	width: 800px;
 	font-size: 16px !important;	
 	margin: 0 auto;
 	margin-left: 5px;
@@ -155,7 +160,7 @@ a::-moz-focus-inner {border:0;}
 #topbanner_container {
 	width: 1024px;
 	height: inherit;
-	/*background-color: rgba(255, 255, 255, .1);*/
+	background-color: rgba(255, 255, 255, .1);
 	padding: 0;
 
 }
@@ -263,12 +268,132 @@ a::-moz-focus-inner {border:0;}
 
 }
 
+
 #idea_title {
 	font-family: "Lato Light";
 	font-size: 55px;
 	text-align: center;
 	margin-top: 100px;
 }
+
+
+#idea_desc_container {
+	position: relative;
+	width: 100%;
+	margin-top: 30px;
+	padding-bottom: 30px;
+}
+
+#idea_video {
+	position: relative;
+	display: inline-block;
+	width: 433px;
+	height: 287px;
+	background: url('img/idea_videobg.png') no-repeat;
+}
+
+#idea_video_button {
+	position: relative;	
+	width: 239px;
+	height: 71px;
+	margin-top: 200px;
+	background: url('img/idea_playbtn.png') no-repeat;	
+	cursor: pointer;
+}
+
+#idea_desc {
+	position: relative;
+	float: right;
+	width: 535px;
+	height: 315px;
+	/*background:  rgba(0, 0, 0, 0.05);*/
+}
+
+#idea_desc1 {
+	font-family: "Lato Regular";
+	font-size: 16px;
+	color: rgb(113, 113, 113);
+}
+
+#idea_desc2 {
+
+}
+
+#idea_desc2 h2 {
+	font-size: 19px;
+	font-family: "Lato Bold";
+
+}
+
+#idea_benefits {
+
+}
+
+#idea_benefits .benefit {
+	position: relative;
+	display: inline-block;
+	width: 250px;
+	height: 60px;
+	margin-right: 15px;
+	margin-bottom: 30px;
+
+	font-family: "Lato Regular";
+	font-size: 16px;
+	color: rgb(113, 113, 113);
+}
+
+#idea_benefits .benefit_num {
+	position: relative;
+	display: inline-block;
+	background: rgb(241, 116, 173);
+	width: 55px;
+	height: 55px;
+	line-height: 55px;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 25px;
+	font-family: "Lato Bold";
+	color: white;
+	border-radius: 55px;
+}
+
+#idea_benefits .benefit_text {
+	position: relative;
+	float: right;
+	width: 180px;
+	margin-left: 10px;	
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
