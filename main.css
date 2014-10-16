@@ -218,10 +218,11 @@ a::-moz-focus-inner {border:0;}
 	width: 440px;
 	border-radius: 50px;
 	border-style: none;
-	padding: 5px;
+	height: 42px;
 	padding-left: 20px;	
 	outline: none;
 	font-size: 23px;
+	color: #1d1f26;
 }
 
 #topbanner_form input[type="submit"] {
