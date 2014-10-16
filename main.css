@@ -303,6 +303,7 @@ a::-moz-focus-inner {border:0;}
 
 #idea_desc {
 	position: relative;
+	display: inline-block;
 	float: right;
 	width: 535px;
 	height: 315px;
