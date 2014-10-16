@@ -287,6 +287,7 @@ a::-moz-focus-inner {border:0;}
 #idea_video {
 	position: relative;
 	display: inline-block;
+	float: left;
 	width: 433px;
 	height: 287px;
 	background: url('img/idea_videobg.png') no-repeat;
