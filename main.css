@@ -227,9 +227,10 @@ a::-moz-focus-inner {border:0;}
 #topbanner_form input[type="submit"] {
 	position: relative;
 	z-index: 1;
-	width: 80px;
+	width: 80px;	
 	padding: 0;
-	height: 32px;	
+	margin: 0;
+	height: 42px;		
 	border-style: none;
 	border-radius: 0 50px 50px 0;
 	margin-left: -20px;
