@@ -6,10 +6,11 @@ a::-moz-focus-inner {border:0;}
 
 @font-face {
 	font-family:"FranklinGothic Heavy";
-	src:url("fonts/FranklinGothicHeavy/franklin-gothic-heavy.eot?") format("eot"),
+	src:url("fonts/FranklinGothicHeavy/franklin-gothic-heavy.eot");
+	src:url("fonts/FranklinGothicHeavy/franklin-gothic-heavy.eot?iefix") format("embedded-opentype"),
 	url("fonts/FranklinGothicHeavy/franklin-gothic-heavy.woff") format("woff"),
 	url("fonts/FranklinGothicHeavy/franklin-gothic-heavy.ttf") format("truetype"),
-	url("fonts/FranklinGothicHeavy/franklin-gothic-heavy.svg#Lato-Bold") format("svg");
+	url("fonts/FranklinGothicHeavy/franklin-gothic-heavy.svg") format("svg");
 	font-weight:bold;
 	font-style:normal;
 }
@@ -34,7 +35,7 @@ a::-moz-focus-inner {border:0;}
 	font-style:normal;
 }
 
-/*@font-face {
+@font-face {
 	font-family:"Lato Light";
 	src:url("fonts/LatoLight/Lato-Light.eot?") format("eot"),
 	url("fonts/LatoLight/Lato-Light.woff") format("woff"),
@@ -42,7 +43,7 @@ a::-moz-focus-inner {border:0;}
 	url("fonts/LatoLight/Lato-Light.svg#Lato-Light") format("svg");
 	font-weight:bold;
 	font-style:normal;
-}*/
+}
 
 
 /* TOP BAR */
