@@ -4,20 +4,36 @@
 		"selected_items":
 		[
 			[
+				"pad",
+				"padding"
+			],
+			[
 				"mar",
-				"margin-left"
+				"margin-top"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"border-s",
+				"border-style"
 			],
 			[
 				"top",
-				"topbar_twitter"
-			],
-			[
-				"pad",
-				"padding-left"
+				"topbanner_form"
 			],
 			[
 				"pa",
-				"padding-left"
+				"padding-top"
+			],
+			[
+				"ma",
+				"margin-top"
+			],
+			[
+				"bac",
+				"background"
 			],
 			[
 				"rgb",
@@ -26,10 +42,6 @@
 			[
 				"fon",
 				"font-weight"
-			],
-			[
-				"font",
-				"font-family"
 			],
 			[
 				"nav",
@@ -43,7 +55,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 2104,
+				"buffer_size": 2854,
 				"line_ending": "Unix"
 			}
 		},
@@ -51,7 +63,7 @@
 			"file": "main.css",
 			"settings":
 			{
-				"buffer_size": 1180,
+				"buffer_size": 4658,
 				"line_ending": "Unix"
 			}
 		},
@@ -162,15 +174,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 2104,
+						"buffer_size": 2854,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1988,
-								1988
+								2791,
+								2791
 							]
 						],
 						"settings":
@@ -180,7 +192,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 66.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -190,23 +202,24 @@
 					"file": "main.css",
 					"settings":
 					{
-						"buffer_size": 1180,
+						"buffer_size": 4658,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								55,
-								55
+								2683,
+								2683
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.tmLanguage"
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1803.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
