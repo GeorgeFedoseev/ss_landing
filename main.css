@@ -328,6 +328,7 @@ a::-moz-focus-inner {border:0;}
 
 #idea_benefits {
 	position: relative;
+	display: inline-block;
 	float: right;
 }
 
