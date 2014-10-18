@@ -548,6 +548,8 @@ a {
 }
 
 #mss_desc2_right_soon {
+	position: absolute;
+	margin-top: 2px;
 	width: 518px;
 	height: 341px;
 	background: url('img/mss_soon.png') no-repeat bottom;
