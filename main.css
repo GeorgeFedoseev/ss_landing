@@ -1,3 +1,5 @@
+
+
 a:focus {outline:none;}
 a::-moz-focus-inner {border:0;}
 
@@ -59,6 +61,14 @@ a::-moz-focus-inner {border:0;}
 
 .container {
 	padding: 0;
+}
+
+a {
+	color: rgb(241, 116, 173);
+}
+
+.pink {
+	color: rgb(241, 116, 173);
 }
 
 
@@ -263,9 +273,7 @@ a::-moz-focus-inner {border:0;}
 #idea {
 	width: 1024px;
 	/*background: rgba(0, 0, 0, 0.1);*/	
-	padding: 0;
-	padding-bottom: 700px;	
-
+	padding-bottom: 15px;
 }
 
 
@@ -290,14 +298,15 @@ a::-moz-focus-inner {border:0;}
 	float: left;
 	width: 433px;
 	height: 287px;
+	padding-bottom: 287px;
 	background: url('img/idea_videobg.png') no-repeat;
 }
 
 #idea_video_button {
 	position: relative;	
+	top: 200px;	
 	width: 239px;
-	height: 71px;
-	margin-top: 200px;
+	height: 71px;	
 	background: url('img/idea_playbtn.png') no-repeat;	
 	cursor: pointer;
 }
@@ -376,37 +385,234 @@ a::-moz-focus-inner {border:0;}
 }
 
 #idea_patterns_image {
-	background:  url('img/idea_various_patterns.png');
+	background: url('img/idea_various_patterns.png');
 	width: 949px;
 	height: 161px;
 	margin: 0 auto;
 	margin-top: 35px;
 }
 
+#idea_vp_container {
+	position: relative;
+	width: 100%;
+	margin-top: 40px;
+}
+
+#idea_vp_lamp {
+	position: relative;
+	float: left;
+	width: 400px;
+	height: 270px;
+	background: url('img/idea_vp_lamp.png') no-repeat;
+	background-position: center 30px;
+}
+
+#idea_vp_lamp_title {
+	margin-top: 130px;
+	font-family: "Lato Bold";
+	font-size: 26px;
+	text-align: center;
+	color: rgb(241, 116, 173);
+}
+
+#idea_vp_desc {
+	position: relative;
+	float: right;
+	width: 570px;
+	height: 270px;
+	font-size: 16px;
+	font-family: "Lato Regular";	
+	color: rgb(113, 113, 113);
+}
 
 
+/* MEET SMART SLEEP APP */
+
+#mss {
+	width: 100%;
+	background-color: rgb(41, 41, 41);
+}
+
+#mss_container {
+	width: 1024px;
+	
+}
+
+#mss_title {
+	font-family: "Lato Light";
+	font-size: 55px;
+	text-align: center;
+	margin-top: 45px;
+	color: white;
+}
+
+#mss_title_desc {
+	font-family: "Lato Regular";
+	font-size: 16px;
+	text-align: center;
+	margin-top: 5px;
+	color: white;
+	margin-bottom: 40px;
+}
+
+#mss_desc1 {
+
+}
+
+#mss_desc1_left {
+	position: relative;	
+	width: 512px;
+	float: left;
+	display: inline-block;
+}
+
+#mss_desc1_left_title {
+	background: url('img/mss_sheep1.png') no-repeat left bottom;
+	height: 70px;
+	padding-left: 125px;
+	font-family: "Lato Bold";
+	font-size: 19px;
+	color: white;
+	padding-top: 40px;
+}
+
+#mss_desc1_left_text {
+	margin-top: 25px;
+	font-family: "Lato Regular";
+	font-size: 16px;
+	color: white;
+	width: 470px;
+}
+
+#mss_desc1_right {
+	position: relative;
+	width: 512px;
+	display: inline-block;
+}
+
+#mss_desc1_right_title {
+	background: url('img/mss_sheep2.png') no-repeat left bottom;
+	height: 70px;
+	padding-left: 125px;
+	font-family: "Lato Bold";
+	font-size: 19px;
+	color: white;
+	padding-top: 40px;
+}
+
+#mss_desc1_right_text {
+	margin-top: 25px;
+	font-family: "Lato Regular";
+	font-size: 16px;
+	color: white;
+	width: 470px;
+}
 
 
+#mss_desc2 {
+	margin-top: 85px;
+	height: 341px;
+}
 
+#mss_desc2_left {
+	position: relative;	
+	width: 512px;
+	display: inline-block;
+	float: left;
+	padding-top: 95px;
+}
 
+#mss_desc2_left_title {
+	font-size: 25px;
+	font-family: "Lato Regular";
+	color: white;
+	text-align: right;
+}
 
+#mss_desc2_left_text {
+	font-size: 16px;
+	font-family: "Lato Regular";
+	color: white;
+	text-align: right;
+	width: 440px;
+	float: right;
+	margin-top: 10px;
+}
+          
+#mss_desc2_right {
+	position: relative;
+	width: 512px;
+	display: inline-block;
+}
 
+#mss_desc2_right_soon {
+	width: 518px;
+	height: 341px;
+	background: url('img/mss_soon.png') no-repeat;
+}
+    
 
+/* SIGN UP FOR UPDATES */
 
+#signup {
+	background: rgb(21, 21, 21);
+	height: 100px;
+	width: 100%;
+}
 
+#signup_container {
+	width: 1024px;
+}
 
+#signup_title {
+	font-family: "Lato Regular";
+	font-size: 34px;
+	height: 100px;
+	line-height: 100px;
+	vertical-align: middle;
+	margin-left: 50px;
+	position: relative;
+	float: left;
+	display: inline-block;
+	color: white;
+}
 
+#signup_form {
+	position: relative;
+	height: 42px;
+	display: inline-block;
+	margin-top: 32px;
+	margin-left: 15px;
+}
 
+#signup_form input[type="email"] {
+	position: relative;
+	float: left;
+	z-index: 2;
+	width: 600px;
+	border-radius: 50px;
+	border-style: none;
+	height: 42px;
+	padding-left: 20px;	
+	outline: none;
+	font-size: 23px;
+	color: #1d1f26;
+}
 
-
-
-
-
-
-
-
-
-
+#signup_form input[type="submit"] {
+	position: relative;
+	z-index: 1;
+	width: 80px;	
+	padding: 0;
+	margin: 0;
+	height: 42px;		
+	border-style: none;
+	border-radius: 0 50px 50px 0;
+	margin-left: -20px;
+	background: url('img/topbanner_arrow.png') no-repeat 30px; 
+	background-color: rgb(241, 116, 173);;
+	outline: none;
+}
 
 
 

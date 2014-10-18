@@ -4,16 +4,32 @@
 		"selected_items":
 		[
 			[
-				"pad",
-				"padding"
-			],
-			[
 				"mar",
 				"margin-top"
 			],
 			[
+				"pa",
+				"padding-bottom"
+			],
+			[
 				"font",
-				"font-size"
+				"font-family"
+			],
+			[
+				"idea",
+				"idea_benefits"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"pad",
+				"padding"
 			],
 			[
 				"border-s",
@@ -22,10 +38,6 @@
 			[
 				"top",
 				"topbanner_form"
-			],
-			[
-				"pa",
-				"padding-top"
 			],
 			[
 				"ma",
@@ -55,7 +67,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 2854,
+				"buffer_size": 4662,
 				"line_ending": "Unix"
 			}
 		},
@@ -63,7 +75,7 @@
 			"file": "main.css",
 			"settings":
 			{
-				"buffer_size": 4658,
+				"buffer_size": 6929,
 				"line_ending": "Unix"
 			}
 		},
@@ -174,15 +186,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 2854,
+						"buffer_size": 4662,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2791,
-								2791
+								4560,
+								4560
 							]
 						],
 						"settings":
@@ -192,7 +204,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1054.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -202,15 +214,15 @@
 					"file": "main.css",
 					"settings":
 					{
-						"buffer_size": 4658,
+						"buffer_size": 6929,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2683,
-								2683
+								5360,
+								5360
 							]
 						],
 						"settings":
@@ -219,7 +231,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1803.0,
+						"translation.y": 4050.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
