@@ -1,4 +1,7 @@
-
+html {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
 
 a:focus {outline:none;}
 a::-moz-focus-inner {border:0;}
