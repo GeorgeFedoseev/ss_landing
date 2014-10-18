@@ -456,14 +456,14 @@ a {
 }
 
 #mss_desc1 {
-
+	display: inline-block;
 }
 
 #mss_desc1_left {
 	position: relative;	
 	width: 512px;
-
 	display: inline-block;
+	float: left;
 }
 
 #mss_desc1_left_title {
@@ -488,6 +488,7 @@ a {
 	position: relative;
 	width: 512px;
 	display: inline-block;
+	float: right;
 }
 
 #mss_desc1_right_title {
@@ -510,6 +511,7 @@ a {
 
 
 #mss_desc2 {
+	display: inline-block;
 	margin-top: 85px;
 	height: 341px;
 }
