@@ -435,7 +435,7 @@ a {
 
 #mss_container {
 	width: 1024px;
-	
+
 }
 
 #mss_title {
@@ -452,7 +452,7 @@ a {
 	text-align: center;
 	margin-top: 5px;
 	color: white;
-	margin-bottom: 40px;
+	padding-bottom: 40px;
 }
 
 #mss_desc1 {
@@ -550,7 +550,7 @@ a {
 #mss_desc2_right_soon {
 	width: 518px;
 	height: 341px;
-	background: url('img/mss_soon.png') no-repeat;
+	background: url('img/mss_soon.png') no-repeat bottom;
 }
     
 
