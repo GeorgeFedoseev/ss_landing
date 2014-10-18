@@ -461,7 +461,7 @@ a {
 
 #mss_desc1_left {
 	position: relative;	
-	width: 512px;
+	width: 510px;
 	float: left;
 	display: inline-block;
 }
@@ -516,7 +516,7 @@ a {
 
 #mss_desc2_left {
 	position: relative;	
-	width: 512px;
+	width: 510px;
 	display: inline-block;
 	float: left;
 	padding-top: 95px;
