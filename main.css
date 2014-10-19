@@ -555,7 +555,7 @@ a {
 	margin-top: 2px;
 	width: 518px;
 	height: 341px;
-	background-image: url('img/mss_soon.png') no-repeat bottom;
+	background: url('img/mss_soon.png') no-repeat bottom;
 }
     
 
