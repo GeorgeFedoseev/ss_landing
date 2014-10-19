@@ -3,13 +3,13 @@ html {
 	-moz-osx-font-smoothing: grayscale;
 }
 
+::-webkit-input-placeholder {color:#ccc;}
+::-moz-placeholder          {color:#ccc;}/* Firefox 19+ */
+:-moz-placeholder           {color:#ccc;}/* Firefox 18- */
+:-ms-input-placeholder      {color:#ccc;}
+
 a:focus {outline:none;}
 a::-moz-focus-inner {border:0;}
-
-::-webkit-input-placeholder {color:#c0392b;}
-::-moz-placeholder          {color:#c0392b;}/* Firefox 19+ */
-:-moz-placeholder           {color:#c0392b;}/* Firefox 18- */
-:-ms-input-placeholder      {color:#c0392b;}
 
 @font-face {
 	font-family:"FranklinGothic Heavy";
