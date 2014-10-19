@@ -4,16 +4,32 @@
 		"selected_items":
 		[
 			[
+				"font",
+				"font-weight"
+			],
+			[
 				"mar",
 				"margin-top"
 			],
 			[
-				"pa",
+				"pad",
 				"padding-bottom"
 			],
 			[
-				"font",
-				"font-family"
+				"ba",
+				"background"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"pa",
+				"padding-bottom"
 			],
 			[
 				"idea",
@@ -26,10 +42,6 @@
 			[
 				"no",
 				"no-repeat"
-			],
-			[
-				"pad",
-				"padding"
 			],
 			[
 				"border-s",
@@ -67,7 +79,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 4662,
+				"buffer_size": 9341,
 				"line_ending": "Unix"
 			}
 		},
@@ -75,7 +87,7 @@
 			"file": "main.css",
 			"settings":
 			{
-				"buffer_size": 6929,
+				"buffer_size": 10639,
 				"line_ending": "Unix"
 			}
 		},
@@ -156,6 +168,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"146",
 			"enter",
 			"auto_complete_commit_trigger_characters",
 			"comple\ncom",
@@ -186,15 +199,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 4662,
+						"buffer_size": 9341,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4560,
-								4560
+								8834,
+								8871
 							]
 						],
 						"settings":
@@ -204,7 +217,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1054.0,
+						"translation.y": 2736.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -214,15 +227,15 @@
 					"file": "main.css",
 					"settings":
 					{
-						"buffer_size": 6929,
+						"buffer_size": 10639,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5360,
-								5360
+								7690,
+								7690
 							]
 						],
 						"settings":
@@ -231,7 +244,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 4050.0,
+						"translation.y": 6377.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
