@@ -1263,6 +1263,7 @@ a {
 #footer_soon {
 	position: relative;
 	display: inline-block;
+	float: left;
 	width: 439px;
 	height: 140px;
 	background: url('img/footer_soon.png') no-repeat center;
