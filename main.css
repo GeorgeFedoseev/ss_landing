@@ -6,7 +6,7 @@ html {
 ::-webkit-input-placeholder {color:#ccc;}
 ::-moz-placeholder          {color:#ccc;}/* Firefox 19+ */
 :-moz-placeholder           {color:#ccc;}/* Firefox 18- */
-:-ms-input-placeholder      {color:#ccc;}
+
 
 a:focus {outline:none;}
 a::-moz-focus-inner {border:0;}
@@ -609,6 +609,10 @@ a {
 	background: url('img/topbanner_arrow.png') no-repeat 30px; 
 	background-color: rgb(241, 116, 173);;
 	outline: none;
+}
+
+#signup_form input[type="email"]:-ms-input-placeholder {
+	color:#ccc;
 }
 
 /* GET MORE FOR LESS */
