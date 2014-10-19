@@ -552,10 +552,11 @@ a {
 
 #mss_desc2_right_soon {
 	position: absolute;
+	display: inline-block;
 	margin-top: 2px;
 	width: 518px;
 	height: 341px;
-	background: url('img/mss_soon.png');
+	background-image: url('img/mss_soon.png');
 
 }
     
