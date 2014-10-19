@@ -64,6 +64,15 @@ a {
 	color: rgb(241, 116, 173);
 }
 
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
 
 /* TOP BAR */
 
@@ -625,11 +634,177 @@ a {
 
 #getmore {
 	width: 100%;
+	background: rgb(243, 243, 244);
+	padding-bottom: 85px;
 }
 
 #getmore_container {
 	width: 1024px;
 }
+
+#getmore_title {
+	font-family: "Lato Light";
+	font-size: 55px;
+	text-align: center;
+	margin-top: 45px;
+}
+
+#getmore_fv {
+	position: relative;
+	margin-top: 50px;
+	
+	width: 100%;
+	height: 332px;
+	background: white;	   	
+	box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+
+}
+
+#getmore_fv_left {
+	position: relative;	
+	width: 491px;
+	height: 332px;
+	display: inline-block;
+	float: left;
+	padding: 30px;
+	padding-bottom: 0;
+}
+
+#getmore_fv_left_title {
+	margin-top: 10px;
+	font-family: "Lato Regular";
+	font-size: 26px;	
+}
+
+#getmore_fv_left_text {
+	width: 400px;
+	margin-top: 10px;
+	font-family: "Lato Regular";
+	font-size: 16px;
+	color: rgb(113, 113, 113);
+	line-height: 1.8;
+}
+
+#getmore_fv_right {
+	position: relative;
+	width: 533px;
+	height: 332px;
+	display: inline-block;
+	float: right;
+}
+
+#getmore_video {
+	position: relative;
+	width: 533px;
+	height: 332px;
+	background: url('img/getmore_videobg.png') no-repeat;
+
+}
+
+#getmore_video_play {	
+	position:absolute;
+    top:50%; 
+    left:50%; 
+    margin-left: -47px;
+    margin-top: -47px;
+	width: 94px;
+	height: 94px;
+	background: url('img/getmore_playbtn.png') no-repeat;	
+	cursor: pointer;
+}
+
+
+#getmore_extratime {
+	position: relative;
+	margin-top: 20px;	
+	width: 100%;
+	height: 332px;
+	background: white;	   	
+	box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+
+}
+
+#getmore_extratime_left {
+	position: relative;	
+	width: 605px;
+	height: 332px;
+	display: inline-block;
+	float: left;
+	background: url('img/getmore_extratime.png') no-repeat center;
+}
+
+
+#getmore_extratime_right {
+	position: relative;	
+	width: 419px;
+	height: 332px;
+	display: inline-block;
+	float: right;
+	padding: 30px;	
+	padding-bottom: 0;
+}
+
+#getmore_extratime_right_title {
+	margin-top: 10px;
+	font-family: "Lato Regular";
+	font-size: 26px;	
+}
+
+#getmore_extratime_right_text {
+	width: 370px;
+	margin-top: 10px;
+	font-family: "Lato Regular";
+	font-size: 16px;
+	color: rgb(113, 113, 113);
+	line-height: 1.8;
+}
+
+
+#getmore_insomnia {
+	position: relative;
+	margin-top: 20px;	
+	width: 100%;
+	height: 399px;
+	background: white;	   	
+	box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+
+}
+
+#getmore_insomnia_left {
+	position: relative;	
+	width: 451px;
+	height: 399px;
+	display: inline-block;
+	float: left;
+	padding: 30px;	
+	padding-bottom: 0;
+}
+
+#getmore_insomnia_left_title {
+	margin-top: 10px;
+	font-family: "Lato Regular";
+	font-size: 26px;	
+}
+
+#getmore_insomnia_left_text {
+	width: 370px;
+	margin-top: 10px;
+	font-family: "Lato Regular";
+	font-size: 16px;
+	color: rgb(113, 113, 113);
+	line-height: 1.8;
+}
+
+#getmore_insomnia_right {
+	position: relative;	
+	width: 573px;
+	height: 399px;
+	display: inline-block;
+	float: right;
+	background: url('img/getmore_insomnia.png') no-repeat center;
+}
+
+
 
 
 
