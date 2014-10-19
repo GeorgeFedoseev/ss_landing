@@ -1102,7 +1102,9 @@ a {
 }
 
 #db_container {
-	width: 1024px;
+	width: 1024px ;	
+	margin: 0 auto;
+	
 }
 
 #db_title {
@@ -1121,7 +1123,9 @@ a {
 
 #db_desc {
 	margin-top: 20px;
-	display: block;
+	width: 1025px;
+	display: inline-block;
+	
 }
 
 .db_item {
@@ -1162,7 +1166,8 @@ a {
 }
 
 #footer_container {
-	width: 1024px;
+	width: 1024px ;	
+	margin: 0 auto;
 }
 
 #footer_contacts {
@@ -1264,7 +1269,7 @@ a {
 	position: relative;
 	display: inline-block;
 	float: left;
-	width: 439px;
+	width: 430px;
 	height: 140px;
 	background: url('img/footer_soon.png') no-repeat center;
 	border-left: 1px solid rgba(0,0,0,.1);
