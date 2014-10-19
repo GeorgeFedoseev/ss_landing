@@ -74,6 +74,14 @@ a {
 	color: rgb(241, 116, 173);
 }
 
+.black {
+	color: black
+}
+
+.white {
+	color: white;
+}
+
 .noselect {
     -webkit-touch-callout: none;
     -webkit-user-select: none;
@@ -854,7 +862,7 @@ a {
 
 #how {
 	width: 100%;
-	padding-bottom: 300px;
+	padding-bottom: 100px;
 }
 
 #how_container {
@@ -917,6 +925,96 @@ a {
 	font-size: 16px;
 	color: rgb(113, 113, 113);	
 }
+
+/* SIMPLE 3-STEP ADAPTAION STRATEGY */
+
+#steps {
+	width: 100%;
+	background: rgb(243, 243, 244);
+	padding-bottom: 500px;
+}
+
+#steps_container {
+	width: 1024px;
+}
+
+#steps_title {
+	font-family: "Lato Light";
+	font-size: 55px;
+	text-align: center;
+	margin-top: 55px;
+}
+
+#steps_title_desc {
+	position: relative;
+	margin-top: 20px;
+	font-family: "Lato Regular";
+	font-size: 16px;
+	text-align: center;
+}
+
+#steps_path {
+	margin-top: 95px;
+	background: url('img/3step.png') no-repeat;
+	width: 1019px;
+	height: 1032px;
+}
+
+
+.steps_phase {
+	background: white;	   	
+	box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+	width: 455px;
+}
+
+.steps_phase_header {
+	font-family: "Lato Regular";
+	font-size: 19px;
+	height: 50px;
+	text-align: center;
+	padding: 10px;
+}
+
+.steps_phase_body {
+	font-family: "Lato Regular";
+	font-size: 16px;
+	padding: 15px 15px 15px 30px;
+	line-height: 1.5;
+}
+
+#steps_phase1 {
+	position: relative;
+	top: -20px;
+}
+
+#steps_phase1 .steps_phase_header {
+	background: rgb(247, 179, 210);
+}
+
+#steps_phase2 {
+	position: relative;
+	left: 570px;
+	top: 190px;
+}
+
+#steps_phase2 .steps_phase_header {
+	background: rgb(245, 152, 194);
+}
+
+#steps_phase3 {
+	position: relative;
+	left: 0px;
+	top: 380px;
+}
+
+#steps_phase3 .steps_phase_header {
+	background: rgb(241, 116, 173);
+}
+
+
+
+
+
 
 
 
