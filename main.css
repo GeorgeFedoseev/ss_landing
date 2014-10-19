@@ -551,13 +551,11 @@ a {
 }
 
 #mss_desc2_right_soon {
-	position: absolute;
-	display: inline-block;
+	position: absolute;	
 	margin-top: 2px;
 	width: 518px;
 	height: 341px;
-	background-image: url('img/mss_soon.png');
-
+	background-image: url('img/mss_soon.png') no-repeat bottom;
 }
     
 
@@ -622,6 +620,18 @@ a {
 	background-color: rgb(241, 116, 173);;
 	outline: none;
 }
+
+/* GET MORE FOR LESS */
+
+#getmore {
+	width: 100%;
+}
+
+#getmore_container {
+	width: 1024px;
+}
+
+
 
 
 
