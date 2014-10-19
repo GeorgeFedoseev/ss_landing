@@ -52,6 +52,16 @@ a::-moz-focus-inner {border:0;}
 	font-style:normal;
 }
 
+@font-face {
+	font-family:"Lato Italic";
+	src:url("fonts/LatoItalic/Lato-Italic.eot?") format("eot"),
+	url("fonts/LatoItalic/Lato-Italic.woff") format("woff"),
+	url("fonts/LatoItalic/Lato-Italic.ttf") format("truetype"),
+	url("fonts/LatoItalic/Lato-Italic.svg#Lato-Italic") format("svg");
+	font-weight:normal;
+	font-style:normal;
+}
+
 .container {
 	padding: 0;
 }
@@ -805,9 +815,107 @@ a {
 }
 
 
+/* EXPLORE SCIENCE AND ENJOY THE BENEFITS */
+
+#expl {
+	width: 100%;
+	background: url('img/expl_bg.png') no-repeat center;
+	height: 225px;
+	background-color: rgb(56, 48, 39);
+	text-align: center;
+}
+
+#expl_title {
+	font-family: "Lato Light";
+	font-size: 55px;
+	text-align: center;
+	margin-top: 35px;
+	color: white;
+}
+
+#expl_button {
+	position: relative;
+	background: rgb(241, 116, 173);
+	border-style: none;
+	color: white;
+	font-family: "Lato Regular";
+	font-size: 16px;
+	margin-top: 30px;
+	padding: 15px 25px 15px 25px;
+	border-radius: 5px;
+}
+
+#expl_button:hover{
+	background: rgb(231, 106, 163);
+}
+
+/* HOW DOES POLYPHASIC SLEEP WORK */
+
+#how {
+	width: 100%;
+	padding-bottom: 300px;
+}
+
+#how_container {
+	width: 1024px;
+}
+
+#how_title {
+	font-family: "Lato Light";
+	font-size: 55px;
+	text-align: center;
+	margin-top: 55px;	
+}
+
+#how_desc1 {
+	font-family: "Lato Regular";
+	font-size: 16px;
+	text-align: center;
+	width: 900px;
+	margin: 0 auto;
+	margin-top: 25px;
+	color: rgb(113, 113, 113);
+	line-height: 1.8;
+}
+
+#how_desc1 b {
+	font-family: "Lato Bold";
+	color: #333;
+}
+
+#how_desc2 {
+	margin-top: 10px;
+}
+
+#how_desc2_left {
+	position: relative;	
+	width: 500px;
+	height: 332px;
+	display: inline-block;
+	float: left;
+	background: url('img/how.png') no-repeat center;
+}
 
 
+#how_desc2_right {
+	position: relative;	
+	width: 524px;
+	height: 332px;
+	display: inline-block;
+	float: right;
+	padding: 30px;	
+	padding-bottom: 0;
+	font-family: "Lato Regular";
+	font-size: 16px;
+	color: rgb(113, 113, 113);
+	line-height: 1.5;
+}
 
+#how_desc2_bottom {
+	font-family: "Lato Italic";
+	font-size: 16px;
+	color: rgb(113, 113, 113);	
+}
 
 
 
