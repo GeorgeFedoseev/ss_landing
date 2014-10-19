@@ -931,7 +931,7 @@ a {
 #steps {
 	width: 100%;
 	background: rgb(243, 243, 244);
-	padding-bottom: 500px;
+	padding-bottom: 200px;
 }
 
 #steps_container {
@@ -1013,9 +1013,261 @@ a {
 }
 
 
+/* TESTIMONIALS */
+
+#testimonials {
+	width: 100%;
+	background: rgb(41, 41, 41);
+	padding-bottom: 60px;
+}
+
+#testimonials_container {
+	width: 1024px;
+}
+
+#testimonials_title {
+	font-family: "Lato Light";
+	font-size: 55px;	
+	margin-top: 100px;
+	color: white;
+	display: inline-block;
+}
+
+#testimonials_success {
+	position: relative;
+	float: right;
+	width: 311px;
+	height: 133px;
+	margin-top: 55px;
+	margin-right: 150px;
+	background: url('img/testimonials_success.png') no-repeat;
+}
+
+
+#testimonials_carousel_container {
+	margin-top: 50px;
+}
+
+#testimonials_prev {
+	position: relative;
+	display: inline-block;
+	float: left;
+	width: 54px;
+	height: 150px;
+	background: url('img/testimonials_prev.png') no-repeat right;	
+	cursor: pointer;
+}
+
+#testimonials_carousel {
+	position: relative;
+	display: inline-block;
+	width: 915px;
+}
+
+#testimonials_next {
+	position: relative;
+	display: inline-block;
+	float: right;
+	width: 54px;
+	height: 150px;
+	background: url('img/testimonials_next.png') no-repeat left;
+	cursor: pointer;
+}
+
+#testimonials_carousel .item{
+	padding: 0 50px 0 80px;
+	width: 915px;
+	margin: 3px;
+	height: 150px;
+	background: url('img/testimonials_quote.png') no-repeat 20px 0px;
+	font-family: "Lato Regular";
+	font-size: 16px;
+	color: white;
+	line-height: 1.5;
+}
+
+#testimonials_carousel .item img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
 
 
 
+/* POSSIBLE DRAWBACKS */
+
+#db {
+	width: 100%;
+	padding-bottom: 100px;
+}
+
+#db_container {
+	width: 1024px;
+}
+
+#db_title {
+	font-family: "Lato Regular";
+	font-size: 26px;
+	text-align: center;
+	margin-top: 55px;
+}
+
+#db_title_desc {
+	text-align: center;
+	color: rgb(113, 113, 113);
+	font-family: "Lato Italic";
+	font-size: 16px;
+}
+
+#db_desc {
+	margin-top: 20px;
+	display: block;
+}
+
+.db_item {
+	min-height: 100px;
+	margin-top: 30px;
+	width: 470px;
+	font-family: "Lato Regular";
+	font-size: 16px;
+	color: rgb(113, 113, 113);
+	background: url('img/db_cross.png') no-repeat top left;
+	padding-left: 45px; 
+	line-height: 1.5;
+}
+
+#db_desc_left {
+	position: relative;	
+	width: 50%;
+	display: inline-block;
+	float: left;
+}
+
+#db_desc_right {
+	position: relative;	
+	width: 50%;
+	display: inline-block;
+	float: right;
+}
+
+
+/* FOOTER */
+
+#footer {
+	width: 100%;
+}
+
+#footer hr {
+	margin-bottom: 10px;
+}
+
+#footer_container {
+	width: 1024px;
+}
+
+#footer_contacts {
+	position: relative;
+	display: inline-block;
+	float: left;
+	width: 215px;
+	height: 140px;
+
+}
+
+#footer_contacts_social {
+	position: relative;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#footer_twitter {
+	position: relative;
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	background: url('img/footer_twitter.png') no-repeat;
+}
+
+#footer_facebook {
+	position: relative;
+	display: inline-block;
+	margin-left: 5px;
+	width: 36px;
+	height: 35px;
+	background: url('img/footer_facebook.png') no-repeat;
+}
+
+#footer_contacts_other {
+	text-align: center;
+	font-family: "Lato Regular";
+	font-size: 14px;
+	color: rgb(113, 113, 113);
+}
+
+#footer_form {
+	float: left;
+	width: 370px;
+	height: 140px;
+	display: inline-block;
+	border-left: 1px solid rgba(0,0,0,.1);
+}
+
+#footer_form_title {
+	position: relative;
+	margin-top: 30px;
+	text-align: center;
+	font-family: "Lato Regular";
+	font-size: 21px;
+}
+
+#footer_signup_form {
+	margin-top: 10px;
+	padding-left: 40px;
+}
+
+#footer_signup_form input[type="email"] {
+	position: relative;
+	float: left;
+	z-index: 2;
+	width: 250px;
+	border-radius: 50px;
+	border-style: none;
+	height: 35px;
+	padding-left: 20px;	
+	outline: none;
+	font-size: 21px;
+	color: #1d1f26;
+	background: rgb(235, 235, 235);
+}
+
+#footer_signup_form input[type="email"]:-ms-input-placeholder {
+	color:#ccc;
+}
+
+#footer_signup_form input[type="submit"] {
+	position: relative;
+	z-index: 1;
+	width: 60px;	
+	padding: 0;
+	margin: 0;
+	height: 35px;		
+	border-style: none;
+	border-radius: 0 50px 50px 0;
+	margin-left: -20px;
+	background: url('img/topbanner_arrow.png') no-repeat 27px; 
+	background-size: 20px 15px;
+	background-color: rgb(241, 116, 173);;
+	outline: none;
+}
+
+#footer_soon {
+	position: relative;
+	display: inline-block;
+	width: 439px;
+	height: 140px;
+	background: url('img/footer_soon.png') no-repeat center;
+	border-left: 1px solid rgba(0,0,0,.1);
+}
 
 
 
