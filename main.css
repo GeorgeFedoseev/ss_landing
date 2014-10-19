@@ -1053,7 +1053,7 @@ a {
 	position: relative;
 	display: inline-block;
 	float: left;
-	width: 54px;
+	width: 52px;
 	height: 150px;
 	background: url('img/testimonials_prev.png') no-repeat right;	
 	cursor: pointer;
@@ -1069,7 +1069,7 @@ a {
 	position: relative;
 	display: inline-block;
 	float: right;
-	width: 54px;
+	width: 52px;
 	height: 150px;
 	background: url('img/testimonials_next.png') no-repeat left;
 	cursor: pointer;
