@@ -6,7 +6,8 @@ $(document).ready(function() {
       itemsMobile : false,
       itemsDesktopSmall : false,      
       itemsTablet: false,
-      singleItem:true
+      singleItem:true,
+      slideSpeed : 500,
   });
 
   $("#testimonials_next").click(function(){
