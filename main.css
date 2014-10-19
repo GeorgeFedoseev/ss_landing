@@ -20,7 +20,7 @@ a::-moz-focus-inner {border:0;}
    opacity:  1;
    color: red;  
 }
-:-ms-input-placeholder { /* Internet Explorer 10+ */
+*:-ms-input-placeholder { /* Internet Explorer 10+ */
    color: red;  
 }
 
