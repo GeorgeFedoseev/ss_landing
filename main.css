@@ -8,17 +8,20 @@ a::-moz-focus-inner {border:0;}
 
 ::-webkit-input-placeholder { /* WebKit browsers */
     color:    rgba(0, 0, 0. .2);
+    color: red;  
 }
 :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
    color:    rgba(0, 0, 0. .2);
    opacity:  1;
+   color: red;  
 }
 ::-moz-placeholder { /* Mozilla Firefox 19+ */
    color:    rgba(0, 0, 0. .2);
    opacity:  1;
+   color: red;  
 }
 :-ms-input-placeholder { /* Internet Explorer 10+ */
-   color:  silver;
+   color: red;  
 }
 
 @font-face {
