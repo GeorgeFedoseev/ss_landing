@@ -1023,6 +1023,7 @@ a {
 
 #testimonials_container {
 	width: 1024px;
+	margin: 0 auto;
 }
 
 #testimonials_title {
