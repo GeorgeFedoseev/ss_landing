@@ -27,9 +27,9 @@ $(document).ready(function() {
 
         // send to server
         var oldBg = input.css('background');
-        for(i=0;i<300;i++) {
-          input.parent().fadeTo('slow', 0.8).fadeTo('slow', 1.0);
-        }
+        input.animate({
+          backgroundColor: 'rgb(250, 255, 189)'
+        }, 300);
 
         input.prop('disabled', true);
 
