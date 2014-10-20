@@ -1109,9 +1109,11 @@ a {
 
 #testimonials_success {
 	position: relative;
-	float: right;
+	display: inline-block;
+
 	width: 311px;
 	height: 133px;
+	left: 250px;
 	margin-top: 55px;
 	margin-right: 150px;
 	background: url('img/testimonials_success.png') no-repeat;
