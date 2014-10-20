@@ -4,10 +4,6 @@
 		"selected_items":
 		[
 			[
-				"font",
-				"font-weight"
-			],
-			[
 				"mar",
 				"margin-top"
 			],
@@ -16,8 +12,88 @@
 				"padding-bottom"
 			],
 			[
+				"border",
+				"border-left"
+			],
+			[
+				"fot",
+				"font-family"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"bac",
+				"background-size"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"tes",
+				"testimonials_carousel"
+			],
+			[
+				"phase",
+				"steps_phase_header"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"fn",
+				"font-family"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"expl",
+				"expl_button"
+			],
+			[
+				"re",
+				"Regular"
+			],
+			[
 				"ba",
 				"background"
+			],
+			[
+				"nor",
+				"no-repeat"
+			],
+			[
+				"paddi",
+				"padding-left"
+			],
+			[
+				"get",
+				"getmore"
+			],
+			[
+				"bo",
+				"bottom"
+			],
+			[
+				"bak",
+				"background-repeat"
 			],
 			[
 				"marg",
@@ -56,16 +132,8 @@
 				"margin-top"
 			],
 			[
-				"bac",
-				"background"
-			],
-			[
 				"rgb",
 				"rgba()"
-			],
-			[
-				"fon",
-				"font-weight"
 			],
 			[
 				"nav",
@@ -79,7 +147,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 9341,
+				"buffer_size": 20638,
 				"line_ending": "Unix"
 			}
 		},
@@ -87,31 +155,15 @@
 			"file": "main.css",
 			"settings":
 			{
-				"buffer_size": 10639,
+				"buffer_size": 21181,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/Users/George/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+			"file": "main.js",
 			"settings":
 			{
-				"buffer_size": 1079,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/George/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
-			"settings":
-			{
-				"buffer_size": 6,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/George/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
-			"settings":
-			{
-				"buffer_size": 29280,
+				"buffer_size": 423,
 				"line_ending": "Unix"
 			}
 		}
@@ -149,8 +201,8 @@
 	"file_history":
 	[
 		"/Users/George/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
-		"/Users/George/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
-		"/Users/George/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap"
+		"/Users/George/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/George/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings"
 	],
 	"find":
 	{
@@ -168,6 +220,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"940",
 			"146",
 			"enter",
 			"auto_complete_commit_trigger_characters",
@@ -199,15 +252,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 9341,
+						"buffer_size": 20638,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								8834,
-								8871
+								19745,
+								19745
 							]
 						],
 						"settings":
@@ -217,7 +270,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2736.0,
+						"translation.y": 732.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -227,15 +280,15 @@
 					"file": "main.css",
 					"settings":
 					{
-						"buffer_size": 10639,
+						"buffer_size": 21181,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7690,
-								7690
+								19358,
+								19358
 							]
 						],
 						"settings":
@@ -244,87 +297,33 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 6377.0,
+						"translation.y": 11965.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "/Users/George/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+					"file": "main.js",
 					"settings":
 					{
-						"buffer_size": 1079,
+						"buffer_size": 423,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								908,
-								908
+								243,
+								243
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JSON.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/Users/George/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
-					"settings":
-					{
-						"buffer_size": 6,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3,
-								3
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "/Users/George/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
-					"settings":
-					{
-						"buffer_size": 29280,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								7456,
-								7456
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 2103.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
