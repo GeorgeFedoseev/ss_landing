@@ -31,14 +31,14 @@ $(document).ready(function() {
           'background': 'rgb(250, 255, 189)'
         }, 1000);
 
-        input.prop('disabled', true);
+        //input.prop('disabled', true);
 
         // send req
         setTimeout(function(){
           input.css({
             'background': oldBg
           });
-          input.prop('disabled', false);
+          //input.prop('disabled', false);
 
           $(".suform").hide();
           $(".suform_after").show();
