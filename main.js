@@ -28,7 +28,7 @@ $(document).ready(function() {
         // send to server
         var oldBg = input.css('background');
         input.animate({
-          'background': 'rgb(250, 255, 189)'
+          backgroundColor: 'rgb(250, 255, 189)'
         }, 1000);
 
         //input.prop('disabled', true);
