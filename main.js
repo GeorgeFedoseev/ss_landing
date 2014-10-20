@@ -22,12 +22,33 @@ $(document).ready(function() {
   $("input[type='submit']").click(function(eventObject){
     var input = $(this).parent().find("input[type='email']");
     var email = input.val();
-    if(validateEmail(email)){
-      alert(email);
-    }else{
-      // wrong email
-        $(input).parent().effect( "shake", {distance: 5} );
-    }
+      if(email.length){
+        if(validateEmail(email)){
+
+        // send to server
+        var oldBg = input.css('background');
+        for(i=0;i<300;i++) {
+          input.parent().fadeTo('slow', 0.8).fadeTo('slow', 1.0);
+        }
+
+        input.prop('disabled', true);
+
+        // send req
+        setTimeout(function(){
+          input.css({
+            'background': oldBg
+          });
+          input.prop('disabled', false);
+
+          $(".suform").hide();
+          $(".suform_after").show();
+        }, 2000);
+
+      }else{
+        // wrong email
+          $(input).parent().effect( "shake", {distance: 5} );
+      }  
+    }    
   });
  
 });

@@ -259,6 +259,16 @@ a {
 	padding-top: 10px;
 }
 
+#topbanner_form_after {
+	display: none;
+	margin-top: 0px;
+	margin-left: 40px;
+	font-family: "Lato Regular";
+	font-size: 35px;
+	color: white;
+}
+
+
 #topbanner_form input[type="email"] {
 	position: relative;
 	float: left;
@@ -608,10 +618,24 @@ a {
 
 #signup_form {
 	position: absolute;
-	height: 42px;
-	
+	height: 42px;	
 	margin-top: 33px;
 	margin-left: 360px;
+	
+}
+
+#signup_form_after {
+	position: absolute;
+	height: 42px;	
+	margin-left: 360px;
+	font-family: "Lato Regular";
+	font-size: 34px;
+	height: 100px;
+	line-height: 100px;
+	vertical-align: middle;
+	margin-left: 360px;
+	color: white;
+	display: none;
 }
 
 #signup_form input[type="email"] {
@@ -633,7 +657,7 @@ a {
 }
 
 #signup_form input[type="submit"] {
-	position: relative;
+	position: absolute;
 	z-index: 1;
 	width: 80px;	
 	padding: 0;
@@ -1232,6 +1256,15 @@ a {
 	position: absolute;
 	margin-top: 10px;
 	margin-left: 40px;
+	
+}
+
+#footer_signup_form_after {	
+	margin-top: 10px;
+	text-align: center;
+	font-family: "Lato Regular";
+	font-size: 21px;
+	display: none;
 }
 
 #footer_signup_form input[type="email"] {
