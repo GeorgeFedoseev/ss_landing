@@ -11,6 +11,54 @@ html {
 a:focus {outline:none;}
 a::-moz-focus-inner {border:0;}
 
+a.glow, a.glow:hover, a.glow:focus
+{
+	text-decoration: none;
+	color: #aaf;
+	text-shadow: none;
+	-webkit-transition: 0.3s linear 0s;
+	-moz-transition: 0.3s linear 0s;
+	-o-transition: 0.3s linear 0s;
+	transition: 0.3s linear 0s;
+	outline: 0 none;
+}
+
+a.glow:hover, a.glow:focus
+{
+	color: #fff;
+	text-shadow: -1px 1px 8px #ffc, 1px -1px 8px #fff;
+}
+
+a.glow:active
+{
+	color: #fff;
+	text-shadow: -1px 1px 15px #ffc, 1px -1px 15px #fff;
+}
+
+a.glow.pink, a.glow:hover.pink, a.glow:focus.pink
+{
+	text-decoration: none;
+	color: rgb(241, 116, 173);
+	text-shadow: none;
+	-webkit-transition: 0.3s linear 0s;
+	-moz-transition: 0.3s linear 0s;
+	-o-transition: 0.3s linear 0s;
+	transition: 0.3s linear 0s;
+	outline: 0 none;
+}
+
+a.glow:hover.pink, a.glow:focus.pink
+{
+	color: #fff;
+	text-shadow: -1px 1px 8px rgb(241, 116, 173), 1px -1px 8px rgb(241, 116, 173);
+}
+
+a.glow:active.pink
+{
+	color: #fff;
+	text-shadow: -1px 1px 15px rgb(241, 116, 173), 1px -1px 15px rgb(241, 116, 173);
+}
+
 @font-face {
 	font-family:"FranklinGothic Heavy";
 	src:url("fonts/FranklinGothicHeavy/franklin-gothic-heavy.eot");

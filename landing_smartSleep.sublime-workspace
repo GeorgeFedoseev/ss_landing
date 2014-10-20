@@ -4,8 +4,24 @@
 		"selected_items":
 		[
 			[
+				"he",
+				"hideKeyboard"
+			],
+			[
+				"mysql_conn",
+				"mysql_connect"
+			],
+			[
+				"margi",
+				"margin-left"
+			],
+			[
 				"mar",
-				"margin-top"
+				"margin-left"
+			],
+			[
+				"fun",
+				"function"
 			],
 			[
 				"pad",
@@ -147,7 +163,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 20638,
+				"buffer_size": 21330,
 				"line_ending": "Unix"
 			}
 		},
@@ -155,7 +171,7 @@
 			"file": "main.css",
 			"settings":
 			{
-				"buffer_size": 21181,
+				"buffer_size": 22680,
 				"line_ending": "Unix"
 			}
 		},
@@ -163,7 +179,15 @@
 			"file": "main.js",
 			"settings":
 			{
-				"buffer_size": 423,
+				"buffer_size": 2633,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "email_submit.php",
+			"settings":
+			{
+				"buffer_size": 573,
 				"line_ending": "Unix"
 			}
 		}
@@ -244,7 +268,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -252,15 +276,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 20638,
+						"buffer_size": 21330,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								19745,
-								19745
+								1271,
+								1271
 							]
 						],
 						"settings":
@@ -270,7 +294,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 732.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -280,15 +304,15 @@
 					"file": "main.css",
 					"settings":
 					{
-						"buffer_size": 21181,
+						"buffer_size": 22680,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								19358,
-								19358
+								1231,
+								1231
 							]
 						],
 						"settings":
@@ -297,7 +321,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 11965.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -307,20 +331,49 @@
 					"file": "main.js",
 					"settings":
 					{
-						"buffer_size": 423,
+						"buffer_size": 2633,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								243,
-								243
+								1489,
+								1489
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 436.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "email_submit.php",
+					"settings":
+					{
+						"buffer_size": 573,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								155,
+								155
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/PHP/PHP.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
