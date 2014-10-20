@@ -609,9 +609,9 @@ a {
 #signup_form {
 	position: absolute;
 	height: 42px;
-	left: 600px;
+	
 	margin-top: 33px;
-	margin-left: 15px;
+	margin-left: 360px;
 }
 
 #signup_form input[type="email"] {
