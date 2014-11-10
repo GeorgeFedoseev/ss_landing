@@ -37,6 +37,18 @@ $(document).ready(function() {
       onEmailSubmit(input);    
     } 
   });  
+
+  // idea video
+  $("#idea_video_button").click(function(){
+    $("#idea_video_youtube").html('<iframe width="433" height="244" src="http://www.youtube.com/embed/pJypFdW0Fbs?rel=0&showinfo=0&autoplay=1&autohide=1&hd=1&modestbranding=1&theme=light&color=white" frameborder="0" allowfullscreen></iframe>');
+    $("#idea_video_button").hide();
+  });
+
+  // getmore video
+  $("#getmore_video_play").click(function(){
+    $("#getmore_video_youtube").html('<iframe width="533" height="300" src="http://www.youtube.com/embed/3JlbZaAyrz0?rel=0&showinfo=0&autoplay=1&autohide=1&hd=1&modestbranding=1&theme=light&color=white" frameborder="0" allowfullscreen></iframe>');
+    $("#getmore_video_play").hide();
+  });
  
 });
 
@@ -109,3 +121,32 @@ $(function() {
     }
   });
 });
+
+
+// scroll to top
+
+
+$(function(){
+ 
+    $(document).on( 'scroll', function(){
+ 
+        if ($(window).scrollTop() > 700) {
+            $('.scroll-top-wrapper').addClass('show');
+        } else {
+            $('.scroll-top-wrapper').removeClass('show');
+        }
+    });
+ 
+    $('.scroll-top-wrapper').on('click', scrollToTop);
+});
+ 
+function scrollToTop() {
+    verticalOffset = typeof(verticalOffset) != 'undefined' ? verticalOffset : 0;
+    element = $('body');
+    offset = element.offset();
+    offsetTop = offset.top;
+    $('html, body').animate({scrollTop: offsetTop}, 500, 'linear');
+}
+
+
+

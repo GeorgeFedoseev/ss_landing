@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"strre",
+				"str_replace"
+			],
+			[
+				"fie",
+				"file"
+			],
+			[
 				"he",
 				"hideKeyboard"
 			],
@@ -163,7 +171,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 21330,
+				"buffer_size": 22180,
 				"line_ending": "Unix"
 			}
 		},
@@ -171,7 +179,15 @@
 			"file": "main.css",
 			"settings":
 			{
-				"buffer_size": 22704,
+				"buffer_size": 23934,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "main.js",
+			"settings":
+			{
+				"buffer_size": 3936,
 				"line_ending": "Unix"
 			}
 		},
@@ -184,19 +200,37 @@
 			}
 		},
 		{
-			"file": "main.js",
-			"settings":
-			{
-				"buffer_size": 2633,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "email_submit.php",
 			"settings":
 			{
 				"buffer_size": 573,
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "upload.php",
+			"settings":
+			{
+				"buffer_size": 619,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "adhoc_distr/SmartSleep.plist",
+			"settings":
+			{
+				"buffer_size": 992,
+				"line_ending": "Unix",
+				"name": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>"
+			}
+		},
+		{
+			"file": "adhoc_distr/index.html",
+			"settings":
+			{
+				"buffer_size": 147,
+				"line_ending": "Unix",
+				"name": "<a href=\"itms-services://?action=download-manifest"
 			}
 		}
 	],
@@ -232,6 +266,7 @@
 	},
 	"file_history":
 	[
+		"/Users/George/Desktop/upload.php",
 		"/Users/George/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
 		"/Users/George/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
 		"/Users/George/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings"
@@ -252,6 +287,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"youtube",
+			"video",
 			"940",
 			"146",
 			"enter",
@@ -276,7 +313,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -284,15 +321,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 21330,
+						"buffer_size": 22180,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1271,
-								1271
+								22148,
+								22148
 							]
 						],
 						"settings":
@@ -302,7 +339,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 6108.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -312,15 +349,15 @@
 					"file": "main.css",
 					"settings":
 					{
-						"buffer_size": 22704,
+						"buffer_size": 23934,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								18634,
-								18634
+								19077,
+								19077
 							]
 						],
 						"settings":
@@ -329,13 +366,41 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 16159.0,
+						"translation.y": 16756.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
+					"file": "main.js",
+					"settings":
+					{
+						"buffer_size": 3936,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3456,
+								3456
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1524.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
 					"file": "/Users/George/Downloads/APIServerPHPClass/index.php",
 					"settings":
 					{
@@ -361,34 +426,6 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "main.js",
-					"settings":
-					{
-						"buffer_size": 2633,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1489,
-								1489
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 436.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
 					"buffer": 4,
 					"file": "email_submit.php",
 					"settings":
@@ -400,8 +437,8 @@
 						"selection":
 						[
 							[
-								155,
-								155
+								23,
+								4
 							]
 						],
 						"settings":
@@ -409,6 +446,89 @@
 							"auto_name": "",
 							"syntax": "Packages/PHP/PHP.tmLanguage",
 							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "upload.php",
+					"settings":
+					{
+						"buffer_size": 619,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								517,
+								517
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "adhoc_distr/SmartSleep.plist",
+					"settings":
+					{
+						"buffer_size": 992,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								992,
+								992
+							]
+						],
+						"settings":
+						{
+							"auto_name": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "adhoc_distr/index.html",
+					"settings":
+					{
+						"buffer_size": 147,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								147,
+								147
+							]
+						],
+						"settings":
+						{
+							"auto_name": "<a href=\"itms-services://?action=download-manifest",
+							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
