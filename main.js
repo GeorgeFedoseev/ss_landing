@@ -86,6 +86,8 @@ function onEmailSubmit (input){
 
         // send req
         $.post("email_submit.php", { email: email}, function( data ) {
+        //setTimeout(function(){
+            //data = "ok";
             console.log(data);
             if(data.indexOf("ok") != -1){
                 input.css({
@@ -97,13 +99,14 @@ function onEmailSubmit (input){
                 $(".suform_after").show();
                 hideKeyboard();                
                 setEmailCookie();
+                setTimeout(hideAnnouncementBanner, 3000);
             }else{
               input.animate({
                 backgroundColor: oldBg
               }, 1000);
               $(input).parent().effect( "shake", {distance: 5} );
             }
-        });
+        }/*, 1000*/);
         
 
       }else{

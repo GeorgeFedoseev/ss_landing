@@ -188,10 +188,13 @@ a {
 }
 
 #android_signup_form_after {	
-	margin-top: 10px;
-	text-align: center;
-	font-family: "Lato Regular";
-	font-size: 21px;
+    margin-left: 40px;
+    margin-top: -3px;
+	font-family: "Lato Bold";
+	font-size: 32px;
+    line-height: 60px;
+    
+    color: #fff;
 	display: none;
 }
 
