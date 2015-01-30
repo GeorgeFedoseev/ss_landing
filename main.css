@@ -140,14 +140,103 @@ a {
 }
 
 
+/* ANNOUNCEMENT */
+
+#android-announcement {
+    position: fixed;
+    display: none;
+    top: 0;
+    width: 100%;
+    z-index: 200000;        
+    height: 80px;
+    background-color: #65bf4f;
+    
+    box-shadow: rgba(0, 0, 0, .5) 0px 0px 20px;
+}
+
+#android-announcement_container {    
+    width: 1024px;
+}
+
+
+#android-announcement-title{
+    position: relative;
+    display: inline-block;
+    float: left;
+    height: 80px;
+    padding: 10px 0 10px 50px;
+    color: white;
+    font-family: "Lato Bold";
+    font-size: 32px;
+    line-height: 60px;
+}
+
+#android_form {
+    position: relative;
+    display: inline-block;
+	width: 370px;
+	height: 80px;
+    padding-top: 13px;
+	display: inline-block;
+}
+
+#android_signup_form {	
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 20px;
+	
+}
+
+#android_signup_form_after {	
+	margin-top: 10px;
+	text-align: center;
+	font-family: "Lato Regular";
+	font-size: 21px;
+	display: none;
+}
+
+#android_signup_form input[type="email"] {
+	position: relative;
+	float: left;
+	z-index: 2;
+	width: 250px;
+	border-radius: 50px;
+	border-style: none;
+	height: 35px;
+	padding-left: 20px;	
+	outline: none;
+	font-size: 21px;
+	color: #1d1f26;
+	background: white;
+}
+
+#android_signup_form input[type="email"]:-ms-input-placeholder {
+	color:#ccc;
+}
+
+#android_signup_form input[type="submit"] {
+	position: relative;
+	z-index: 1;
+	width: 60px;	
+	padding: 0;
+	margin: 0;
+	height: 35px;		
+	border-style: none;
+	border-radius: 0 50px 50px 0;
+	margin-left: -20px;
+	background: url('img/topbanner_arrow.png') no-repeat 27px; 
+	background-size: 20px 15px;
+	background-color: rgb(62, 124, 23);
+	outline: none;
+}
 
 
 
 /* TOP BAR */
 
-#topbar {
+#topbar {    
 	background: rgb(21, 21, 21);
-	
+	z-index: 1;
 	height: 78px !important;
 	font-family: "Lato Bold";
 	margin-bottom: 0;
@@ -268,13 +357,20 @@ a {
 	margin-left: 555px;
 }
 
-#topbanner_title {
-	
+#topbanner_title {	
 	color: white;
 	font-size: 65px;
 	font-family: "FranklinGothic Heavy";
 	line-height: 1.0;
 	margin-left: -30px;
+}
+
+#topbanner_title_available {
+	color: white;
+	font-size: 25px;
+	font-family: "Lato Regular";
+	margin-left: -25px;
+	margin-top: 20px;
 }
 
 #topbanner_soon {
@@ -283,7 +379,18 @@ a {
 	width: 518px;
 	height: 80px;
 	background: url('img/topbanner_soon.png') no-repeat;
-	margin-left: -115px;
+	
+}
+
+#topbanner_available {
+	position: relative;
+	z-index: 5;
+	width: 210px;
+	height: 68px;
+	background: url('img/topbanner_available.png') no-repeat;
+	margin-left: -25px;
+	margin-top: 25px;
+
 }
 
 #topbanner_subscribe {
@@ -518,6 +625,40 @@ a {
 }
 
 
+/* MSS BAR */
+#mss_bar {
+	width: 100%;
+	height: 95px;
+	background-color: rgb(241, 116, 173);
+}
+
+#mss_bar_container {
+	width: 1024px;	
+}
+
+#mss_bar_container_title {
+	position: relative;
+	display: inline-block;
+	float: left;
+	margin-top: 20px;
+	margin-left: 210px;
+	color: white;
+	font-size: 38px;
+	font-family: "Lato Light";
+}
+
+#mss_bar_container_available {
+	position: relative;
+	display: inline-block;
+	z-index: 5;
+	width: 210px;
+	height: 68px;
+	background: url('img/bar_available.png') no-repeat;
+	margin-left: 10px;
+	margin-top: 15px;
+}
+
+
 /* MEET SMART SLEEP APP */
 
 #mss {
@@ -527,6 +668,7 @@ a {
 
 #mss_container {
 	width: 1024px;
+	padding-bottom: 50px;
 
 }
 
@@ -632,6 +774,17 @@ a {
 	float: right;
 	margin-top: 10px;
 }
+
+#mss_available {
+	position: relative;
+	display: inline-block;
+	z-index: 5;
+	width: 238px;
+	height: 77px;
+	background: url('img/mss_available.png') no-repeat;
+	margin-left: 275px;
+	margin-top: 20px;
+}
           
 #mss_desc2_right {
 	position: relative;
@@ -641,10 +794,11 @@ a {
 
 #mss_desc2_right_soon {
 	position: absolute;	
-	margin-top: 3px;
-	width: 518px;
-	height: 341px;
-	background: url('img/mss_soon.png') no-repeat bottom;
+	margin-top: 30px;
+	margin-left: 30px;
+	width: 384px;
+	height: 367px;
+	background: url('img/mss_available_iphones.png') no-repeat bottom;
 }
     
 
@@ -728,6 +882,38 @@ a {
 	outline: none;
 }
 
+/* GET MORE BAR */
+#getmore_bar {
+	width: 100%;
+	height: 95px;
+	background-color: rgb(241, 116, 173);
+}
+
+#getmore_bar_container {
+	width: 1024px;	
+}
+
+#getmore_bar_container_title {
+	position: relative;
+	display: inline-block;
+	float: left;
+	margin-top: 20px;
+	margin-left: 160px;
+	color: white;
+	font-size: 38px;
+	font-family: "Lato Light";
+}
+
+#getmore_bar_container_available {
+	position: relative;
+	display: inline-block;
+	z-index: 5;
+	width: 210px;
+	height: 68px;
+	background: url('img/bar_available.png') no-repeat;
+	margin-left: 10px;
+	margin-top: 15px;
+}
 
 
 /* GET MORE FOR LESS */
@@ -917,7 +1103,12 @@ a {
 	text-align: center;
 }
 
+#expl_container {
+	width: 1024px;
+}
+
 #expl_title {
+	position: relative;	
 	font-family: "Lato Light";
 	font-size: 50px;
 	text-align: center;
@@ -939,6 +1130,40 @@ a {
 
 #expl_button:hover{
 	background: rgb(231, 106, 163);
+}
+
+
+/* HOW BAR */
+#how_bar {
+	width: 100%;
+	height: 95px;
+	background-color: rgb(241, 116, 173);
+}
+
+#how_bar_container {
+	width: 1024px;	
+}
+
+#how_bar_container_title {
+	position: relative;
+	display: inline-block;
+	float: left;
+	margin-top: 20px;
+	margin-left: 60px;
+	color: white;
+	font-size: 38px;
+	font-family: "Lato Light";
+}
+
+#how_bar_container_available {
+	position: relative;
+	display: inline-block;
+	z-index: 5;
+	width: 210px;
+	height: 68px;
+	background: url('img/bar_available.png') no-repeat;
+	margin-left: 20px;
+	margin-top: 15px;
 }
 
 /* HOW DOES POLYPHASIC SLEEP WORK */
@@ -1373,14 +1598,41 @@ a {
 	outline: none;
 }
 
-#footer_soon {
+#footer_available {
 	position: relative;
 	display: inline-block;
-	float: left;
-	width: 430px;
-	height: 140px;
-	background: url('img/footer_soon.png') no-repeat center;
+	float: left;	
 	border-left: 1px solid rgba(0,0,0,.05);
+}
+
+#footer_available_title {
+	position: relative;
+	float: left;
+	display: inline-block;
+	width: 150px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 20px;
+}
+
+#footer_available_title_main {
+	font-family: "Lato Bold";
+	font-size: 21px;
+}
+
+#footer_available_title_sub {
+	font-family: "Lato Regular";
+	font-size: 13px;	
+	text-align: right;
+}
+
+#footer_available_link {
+	position: relative;
+	display: inline-block;
+
+	width: 261px;
+	height: 140px;
+	background: url('img/footer_available.png') no-repeat center;
 }
 
 
@@ -1404,7 +1656,7 @@ a {
     height: 48px;
     line-height: 48px;
     right: 30px;
-    top: 30px;
+    top: 18px;
     padding-top: 2px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;

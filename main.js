@@ -1,6 +1,12 @@
+var banner_offset = 0;
+
 $(document).ready(function() {
  
-
+    // android banner
+    if (document.cookie.indexOf("email_in_base") == -1) {
+        showAnnouncementBanner();
+    }
+    
   // carousel
 
   var owl = $("#testimonials_crs");
@@ -40,18 +46,30 @@ $(document).ready(function() {
 
   // idea video
   $("#idea_video_button").click(function(){
-    $("#idea_video_youtube").html('<iframe width="433" height="244" src="http://www.youtube.com/embed/pJypFdW0Fbs?rel=0&showinfo=0&autoplay=1&autohide=1&hd=1&modestbranding=1&theme=light&color=white" frameborder="0" allowfullscreen></iframe>');
+    $("#idea_video_youtube").html('<iframe width="433" height="244" src="http://www.youtube.com/embed/P-p00OesKpI?rel=0&showinfo=0&autoplay=1&autohide=1&hd=1&modestbranding=1&theme=light&color=white" frameborder="0" allowfullscreen></iframe>');
     $("#idea_video_button").hide();
   });
 
   // getmore video
   $("#getmore_video_play").click(function(){
-    $("#getmore_video_youtube").html('<iframe width="533" height="300" src="http://www.youtube.com/embed/3JlbZaAyrz0?rel=0&showinfo=0&autoplay=1&autohide=1&hd=1&modestbranding=1&theme=light&color=white" frameborder="0" allowfullscreen></iframe>');
+    $("#getmore_video_youtube").html('<iframe width="533" height="300" src="http://www.youtube.com/embed/a5YKRo_vjjM?rel=0&showinfo=0&autoplay=1&autohide=1&hd=1&modestbranding=1&theme=light&color=white" frameborder="0" allowfullscreen></iframe>');
     $("#getmore_video_play").hide();
   });
  
 });
 
+
+function showAnnouncementBanner(){
+    banner_offset = 80;
+    $("#android-announcement").show();
+    $("#topbar").css("margin-top", "80px");
+}
+
+function hideAnnouncementBanner(){
+    banner_offset = 0;
+    $("#android-announcement").hide();
+    $("#topbar").css("margin-top", "0px");
+}
 
 function onEmailSubmit (input){
   var email = input.val();
@@ -77,7 +95,8 @@ function onEmailSubmit (input){
 
                 $(".suform").hide();
                 $(".suform_after").show();
-                hideKeyboard();
+                hideKeyboard();                
+                setEmailCookie();
             }else{
               input.animate({
                 backgroundColor: oldBg
@@ -92,6 +111,10 @@ function onEmailSubmit (input){
           $(input).parent().effect( "shake", {distance: 5} );
       }  
     }
+}
+
+function setEmailCookie(){
+    document.cookie = "email_in_base=true; max-age=" + 60 * 60 * 24 * 10;
 }
 
 function validateEmail(email) { 
@@ -114,7 +137,7 @@ $(function() {
       target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
       if (target.length) {
         $('html,body').animate({
-          scrollTop: target.offset().top
+          scrollTop: target.offset().top-banner_offset
         }, 1000);
         return false;
       }
@@ -127,6 +150,9 @@ $(function() {
 
 
 $(function(){
+    
+    
+    
  
     $(document).on( 'scroll', function(){
  
@@ -145,7 +171,7 @@ function scrollToTop() {
     element = $('body');
     offset = element.offset();
     offsetTop = offset.top;
-    $('html, body').animate({scrollTop: offsetTop}, 500, 'linear');
+    $('html, body').animate({scrollTop: 0}, 500, 'linear');
 }
 
 
