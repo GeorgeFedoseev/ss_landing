@@ -403,7 +403,7 @@ a {
 	z-index: 5;
 	width: 196px;
 	height: 68px;
-	background: url('img/google_play_badge_green.png') no-repeat;
+	background: url('img/google_play_badge_green_soon.png') no-repeat;
 	margin-left: 25px;
 	margin-top: 25px;
 /*    display: none;*/
@@ -681,7 +681,7 @@ a {
 	z-index: 5;
 	width: 140px;
 	height: 48px;
-	background: url('img/google_play_badge.png') no-repeat;
+	background: url('img/google_play_badge_soon.png') no-repeat;
     background-size: contain;
 	margin-left: 10px;
 	margin-top: 15px;
@@ -822,7 +822,7 @@ a {
 	z-index: 5;
 	width: 175px;
 	height: 60px;
-	background: url('img/google_play_badge_white.png') no-repeat;
+	background: url('img/google_play_badge_white_soon.png') no-repeat;
     background-size: contain;
 	margin-left: 10px;
 	margin-top: 20px;
@@ -965,7 +965,7 @@ a {
 	z-index: 5;
 	width: 140px;
 	height: 48px;
-	background: url('img/google_play_badge.png') no-repeat;
+	background: url('img/google_play_badge_soon.png') no-repeat;
     background-size: contain;
 	margin-left: 10px;
 	margin-top: 15px;
@@ -1229,7 +1229,7 @@ a {
 	z-index: 5;
 	width: 140px;
 	height: 48px;
-	background: url('img/google_play_badge.png') no-repeat;
+	background: url('img/google_play_badge_soon.png') no-repeat;
     background-size: contain;
 	margin-left: 10px;
 	margin-top: 15px;
@@ -1711,7 +1711,7 @@ a {
 	z-index: 5;
 	width: 150px;
 	height: 50px;
-	background: url('img/google_play_badge.png') no-repeat;
+	background: url('img/google_play_badge_soon.png') no-repeat;
     background-size: cover;
 	margin-left: 190px;
 	margin-top: 5px;
