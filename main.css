@@ -387,13 +387,26 @@ a {
 
 #topbanner_available {
 	position: relative;
+    display: inline-block;
 	z-index: 5;
 	width: 210px;
 	height: 68px;
-	background: url('img/topbanner_available.png') no-repeat;
+	background: url('img/topbanner_available_stroke.png') no-repeat;
 	margin-left: -25px;
 	margin-top: 25px;
 
+}
+
+#topbanner_available_google {
+	position: relative;
+    display: inline-block;
+	z-index: 5;
+	width: 196px;
+	height: 68px;
+	background: url('img/google_play_badge_green.png') no-repeat;
+	margin-left: 25px;
+	margin-top: 25px;
+/*    display: none;*/
 }
 
 #topbanner_subscribe {
@@ -644,7 +657,7 @@ a {
 	display: inline-block;
 	float: left;
 	margin-top: 20px;
-	margin-left: 210px;
+	margin-left: 100px;
 	color: white;
 	font-size: 38px;
 	font-family: "Lato Light";
@@ -652,11 +665,24 @@ a {
 
 #mss_bar_container_available {
 	position: relative;
+	display: inline-block;    
+	z-index: 5;
+	width: 150px;
+	height: 48px;
+	background: url('img/bar_available_stroke.png') no-repeat;
+    background-size: contain;
+	margin-left: 40px;
+	margin-top: 25px;
+}
+
+#mss_bar_container_available_google {
+	position: relative;
 	display: inline-block;
 	z-index: 5;
-	width: 210px;
-	height: 68px;
-	background: url('img/bar_available.png') no-repeat;
+	width: 140px;
+	height: 48px;
+	background: url('img/google_play_badge.png') no-repeat;
+    background-size: contain;
 	margin-left: 10px;
 	margin-top: 15px;
 }
@@ -782,10 +808,23 @@ a {
 	position: relative;
 	display: inline-block;
 	z-index: 5;
-	width: 238px;
-	height: 77px;
+	width: 200px;
+	height: 60px;
 	background: url('img/mss_available.png') no-repeat;
-	margin-left: 275px;
+    background-size: contain;
+	margin-left: 120px;
+	margin-top: 45px;
+}
+
+#mss_available_google {
+	position: relative;
+	display: inline-block;
+	z-index: 5;
+	width: 175px;
+	height: 60px;
+	background: url('img/google_play_badge_white.png') no-repeat;
+    background-size: contain;
+	margin-left: 10px;
 	margin-top: 20px;
 }
           
@@ -901,23 +940,36 @@ a {
 	display: inline-block;
 	float: left;
 	margin-top: 20px;
-	margin-left: 160px;
+	margin-left: 90px;
 	color: white;
 	font-size: 38px;
 	font-family: "Lato Light";
 }
 
+
 #getmore_bar_container_available {
+	position: relative;
+	display: inline-block;    
+	z-index: 5;
+	width: 150px;
+	height: 48px;
+	background: url('img/bar_available_stroke.png') no-repeat;
+    background-size: contain;
+	margin-left: 40px;
+	margin-top: 25px;
+}
+
+#getmore_bar_container_available_google {
 	position: relative;
 	display: inline-block;
 	z-index: 5;
-	width: 210px;
-	height: 68px;
-	background: url('img/bar_available.png') no-repeat;
+	width: 140px;
+	height: 48px;
+	background: url('img/google_play_badge.png') no-repeat;
+    background-size: contain;
 	margin-left: 10px;
 	margin-top: 15px;
 }
-
 
 /* GET MORE FOR LESS */
 
@@ -1152,20 +1204,34 @@ a {
 	display: inline-block;
 	float: left;
 	margin-top: 20px;
-	margin-left: 60px;
+	margin-left: 15px;
 	color: white;
 	font-size: 38px;
 	font-family: "Lato Light";
 }
 
+
 #how_bar_container_available {
+	position: relative;
+	display: inline-block;    
+	z-index: 5;
+	width: 150px;
+	height: 48px;
+	background: url('img/bar_available_stroke.png') no-repeat;
+    background-size: contain;
+	margin-left: 20px;
+	margin-top: 25px;
+}
+
+#how_bar_container_available_google {
 	position: relative;
 	display: inline-block;
 	z-index: 5;
-	width: 210px;
-	height: 68px;
-	background: url('img/bar_available.png') no-repeat;
-	margin-left: 20px;
+	width: 140px;
+	height: 48px;
+	background: url('img/google_play_badge.png') no-repeat;
+    background-size: contain;
+	margin-left: 10px;
 	margin-top: 15px;
 }
 
@@ -1631,14 +1697,25 @@ a {
 
 #footer_available_link {
 	position: relative;
-	display: inline-block;
-
-	width: 261px;
-	height: 140px;
-	background: url('img/footer_available.png') no-repeat center;
+	z-index: 5;
+	width: 150px;
+	height: 48px;
+	background: url('img/bar_available_stroke.png') no-repeat;
+    background-size: contain;
+	margin-left: 190px;
+	margin-top: 20px;
 }
 
-
+#footer_available_link_google {
+	position: relative;	
+	z-index: 5;
+	width: 150px;
+	height: 50px;
+	background: url('img/google_play_badge.png') no-repeat;
+    background-size: cover;
+	margin-left: 190px;
+	margin-top: 5px;
+}
 
 
 
