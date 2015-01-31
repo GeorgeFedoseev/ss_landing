@@ -85,7 +85,7 @@ function onEmailSubmit (input){
         //input.prop('disabled', true);
 
         // send req
-        $.post("email_submit.php", { email: email}, function( data ) {
+        $.post("http://smartsleepteam.com/email_submit.php", { email: email}, function( data ) {
         //setTimeout(function(){
             //data = "ok";
             console.log(data);
