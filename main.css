@@ -407,6 +407,9 @@ a {
 	margin-left: 25px;
 	margin-top: 25px;
 /*    display: none;*/
+    filter: gray; /* IE6-9 */
+    filter: grayscale(1); /* Firefox 35+ */
+    -webkit-filter: grayscale(1);
 }
 
 #topbanner_subscribe {
@@ -685,6 +688,9 @@ a {
     background-size: contain;
 	margin-left: 10px;
 	margin-top: 15px;
+    filter: gray; /* IE6-9 */
+    filter: grayscale(1); /* Firefox 35+ */
+    -webkit-filter: grayscale(1);
 }
 
 
@@ -826,6 +832,9 @@ a {
     background-size: contain;
 	margin-left: 10px;
 	margin-top: 20px;
+    filter: gray; /* IE6-9 */
+    filter: grayscale(1); /* Firefox 35+ */
+    -webkit-filter: grayscale(1);
 }
           
 #mss_desc2_right {
@@ -969,6 +978,9 @@ a {
     background-size: contain;
 	margin-left: 10px;
 	margin-top: 15px;
+    filter: gray; /* IE6-9 */
+    filter: grayscale(1); /* Firefox 35+ */
+    -webkit-filter: grayscale(1);
 }
 
 /* GET MORE FOR LESS */
@@ -1233,6 +1245,9 @@ a {
     background-size: contain;
 	margin-left: 10px;
 	margin-top: 15px;
+    filter: gray; /* IE6-9 */
+    filter: grayscale(1); /* Firefox 35+ */
+    -webkit-filter: grayscale(1);
 }
 
 /* HOW DOES POLYPHASIC SLEEP WORK */
@@ -1715,6 +1730,9 @@ a {
     background-size: cover;
 	margin-left: 190px;
 	margin-top: 5px;
+    filter: gray; /* IE6-9 */
+    filter: grayscale(1); /* Firefox 35+ */
+    -webkit-filter: grayscale(1);
 }
 
 
